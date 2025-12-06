@@ -655,3 +655,64 @@ nav {
 
 
 /* footer end */
+
+
+
+/* ==========================
+    📱 FAQAT TELEFON UCHUN
+    max-width: 576px
+=========================== */
+@media (max-width: 576px) {
+
+  /* FILMS */
+  .films_cards {
+    display: grid;
+    grid-template-columns: 1fr;   /* 1ta ustun */
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .films_card {
+    width: 100%;
+  }
+
+  .films_card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .films_card_title {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  /* SERIES pastidagi 5ta kartalar */
+  .series__grid {
+    display: grid;
+    grid-template-columns: 1fr;  /* 1ta ustun */
+    gap: 18px;
+    padding: 0 10px;
+  }
+
+  .series__item {
+    width: 100%;
+  }
+
+  .series__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .series__item__title {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+
+  /* Umumiy matn */
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
